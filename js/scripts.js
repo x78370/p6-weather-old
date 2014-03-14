@@ -45,7 +45,7 @@ function loadWeather(location, woeid) {
 }
 
 
-
+/*
 
 // REF: http://foundation.zurb.com/docs/
 // REF: http://simpleweatherjs.com/
@@ -87,3 +87,4 @@ $('#getWeather button').on('click', function() {
   
 });
 
+*/
