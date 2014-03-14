@@ -14,10 +14,16 @@
 
 <!-- Output Weather --> 
 <!-- Docs at http://http://simpleweatherjs.com -->
+<!-- Docs at http://http://simpleweatherjs.com -->
+<h1>Geo-locate or Enter Zipcode</h1>
+<div id="weather"></div>
+<button class="js-geolocation" style="display: none;">Use Your Location</button>
 
+
+<div>
 
    <form id="getWeather">
-    <input type="text" />
+    <input type="text" placeholder="Zipcode"/>
     <button>Get Weather</button>
 </form>
 
@@ -26,6 +32,7 @@
   <li class="temp"> </li>
   <li class="city"> </li>
 </ul>
+</div>
     
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
