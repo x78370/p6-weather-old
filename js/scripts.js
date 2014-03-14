@@ -22,7 +22,7 @@ $('.js-geolocation').on('click', function() {
 * Austin WOEID: 2357536
 */
 $(document).ready(function() {
-  loadWeather('Seattle',''); //@params location, woeid
+  loadWeather('St. Louis',''); //@params location, woeid
 });
 
 function loadWeather(location, woeid) {
