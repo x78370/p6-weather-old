@@ -3,7 +3,9 @@
 #weather {
 	width: 600px;
 }
-
+h1 {
+  font-size: .75em;
+}
 /*
   Docs at http://http://simpleweatherjs.com
 
